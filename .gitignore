@@ -1,0 +1,63 @@
+# Frontend .gitignore
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+frontend/.idea/
+frontend/.vscode/
+frontend/coverage/
+frontend/*.log
+frontend/.DS_Store
+frontend/public/sitemap.xml
+frontend/public/robots.txt
+
+# Backend .gitignore
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/logs/
+backend/*.log
+backend/.idea/
+backend/.vscode/
+backend/coverage/
+backend/dist/
+backend/.DS_Store
+backend/uploads/
+backend/temp/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.pem
+*.key
+*.crt
