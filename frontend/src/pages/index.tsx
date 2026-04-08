@@ -149,21 +149,25 @@ export default function Home() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="absolute top-6 left-4 sm:top-8 sm:left-6 lg:top-10 lg:left-8 z-20"
+          className="absolute top-4 left-4 sm:top-6 sm:left-6 lg:top-10 lg:left-8 z-20"
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg border border-white/20 p-3 sm:p-4 w-32 sm:w-36 lg:w-44">
-            <div className="relative">
-              <img
-                src="/memorial/foundingmother.png"
-                alt="Founding Mother"
-                className="w-full aspect-[4/5] object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black/40 to-transparent"></div>
-            </div>
-            <div className="mt-3 text-center">
-              <h3 className="text-xs sm:text-sm lg:text-lg font-bold text-white mb-1">Nirmala Chauhan</h3>
-              <p className="text-xs lg:text-sm font-semibold text-blue-100 mb-1">Founding Mother</p>
-              <p className="text-xs text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 sm:p-4 w-60 sm:w-48 lg:w-52">
+            <div className="flex flex-col sm:flex-row items-center gap-3">
+              <div className="w-full sm:w-24 flex-shrink-0">
+                <div className="relative overflow-hidden rounded-3xl">
+                  <img
+                    src="/memorial/foundingmother.png"
+                    alt="Founding Mother"
+                    className="w-full aspect-[4/5] object-cover"
+                  />
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
+                </div>
+              </div>
+              <div className="flex-1 text-center sm:text-left">
+                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-white mb-1">Nirmala Chauhan</h3>
+                <p className="text-[11px] sm:text-sm font-semibold text-blue-100 mb-1">Founding Mother</p>
+                <p className="text-[11px] sm:text-xs text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
+              </div>
             </div>
           </div>
         </motion.div>
