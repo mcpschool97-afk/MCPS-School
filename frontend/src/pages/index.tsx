@@ -151,9 +151,9 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="absolute top-4 left-4 sm:top-6 sm:left-6 lg:top-10 lg:left-8 z-20"
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 sm:p-4 w-60 sm:w-48 lg:w-52">
-            <div className="flex flex-col sm:flex-row items-center gap-3">
-              <div className="w-full sm:w-24 flex-shrink-0">
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-2 sm:p-3 w-44 sm:w-44 lg:w-52 max-w-[11rem]">
+            <div className="flex flex-col sm:flex-row items-center gap-2">
+              <div className="w-full sm:w-20 flex-shrink-0">
                 <div className="relative overflow-hidden rounded-3xl">
                   <img
                     src="/memorial/foundingmother.png"
@@ -164,9 +164,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-sm sm:text-base lg:text-lg font-bold text-white mb-1">Nirmala Chauhan</h3>
-                <p className="text-[11px] sm:text-sm font-semibold text-blue-100 mb-1">Founding Mother</p>
-                <p className="text-[11px] sm:text-xs text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
+                <h3 className="text-xs sm:text-sm lg:text-base font-bold text-white mb-1">Nirmala Chauhan</h3>
+                <p className="text-[10px] sm:text-[11px] font-semibold text-blue-100 mb-1">Founding Mother</p>
+                <p className="text-[10px] sm:text-[11px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
               </div>
             </div>
           </div>
