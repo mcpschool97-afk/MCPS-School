@@ -22,10 +22,11 @@ const app = express();
 // Middleware
 app.use(helmet()); // Security headers
 
-const allowedOrigins = [
-  process.env.CORS_ORIGIN || 'http://localhost:3000',
-  'http://localhost:3001',
-];
+const allowedOrigins = process.env.CORS_ORIGIN
+  ? process.env.CORS_ORIGIN.split(',').map((origin) => origin.trim())
+  : ['http://localhost:3000'];
+
+allowedOrigins.push('http://localhost:3001');
 
 app.use(
   cors({
@@ -37,6 +38,7 @@ app.use(
       }
     },
     credentials: true,
+    optionsSuccessStatus: 200,
   })
 );
 
