@@ -71,6 +71,26 @@ app.use('/api/admissions', require('./routes/admissions'));
 app.use('/api/attendance', require('./routes/attendance'));
 // app.use('/api/staff', require('./routes/staff'));
 
+// Database health check
+app.get('/api/health/db', async (req, res) => {
+  try {
+    const admin = mongoose.connection.db.admin();
+    await admin.ping();
+    res.json({ 
+      status: 'Database connected',
+      db: mongoose.connection.name,
+      host: mongoose.connection.host,
+      readyState: mongoose.connection.readyState
+    });
+  } catch (error) {
+    res.status(500).json({ 
+      status: 'Database disconnected',
+      error: error.message,
+      readyState: mongoose.connection.readyState
+    });
+  }
+});
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({ message: 'Route not found' });
