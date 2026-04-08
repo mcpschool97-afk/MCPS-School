@@ -60,6 +60,26 @@ app.get('/health', (req, res) => {
   res.json({ status: 'Server is running' });
 });
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'School Website API is running',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      dbHealth: '/api/health/db',
+      auth: '/api/auth',
+      news: '/api/news',
+      gallery: '/api/gallery',
+      students: '/api/students',
+      events: '/api/events',
+      heroCarousel: '/api/hero-carousel',
+      admissions: '/api/admissions',
+      attendance: '/api/attendance'
+    }
+  });
+});
+
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/news', require('./routes/news'));
