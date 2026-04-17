@@ -136,20 +136,32 @@ We envision nurturing young minds to become confident, creative, and responsible
           >
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Journey</h2>
             <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                The foundation of this legacy was laid in 1999 with the vision and compassion of the Late Adv. Shatrughan Chauhan and the Late Mrs. Krishna Chauhan, who believed that education is a fundamental right for every child, regardless of ability. At a time when support for specially abled students was limited, they took the first step toward inclusive education by establishing a school dedicated to specially abled students. That institution continues to stand as a beacon of inclusion and care to this day.
-
-This legacy was carried forward with remarkable dedication by the Late Dr. Nirmala Chauhan, our Founding Mother, whose passion and commitment became the guiding force behind this enduring mission. She played a pivotal role in nurturing the institution and strengthening the ideals of inclusive education. Her belief in empathy, strength, and equal opportunity transformed countless lives and built a foundation rooted in care and excellence.
-
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Today, Meridian emerges as a new chapter in this continuing legacy—built on the same values and guided by a new vision for the future.
-
-Over the years, this legacy has grown into a source of hope, learning, and empowerment for students and families alike. Each step forward stands as a tribute to the values that shaped its foundation and the enduring spirit of the Founding Mother.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                As Meridian looks to the future, it carries this legacy forward with renewed purpose—creating a world where every child is valued, supported, and given the opportunity to grow, thrive and achieve their goals.
-              </p>
+              <div className="grid gap-8 lg:grid-cols-[1fr_1.2fr] items-start">
+                <div className="overflow-hidden rounded-3xl shadow-xl border border-white/70">
+                  <img
+                    src="/founders.jpg"
+                    alt="Founders of Meridian Creative & Progressive School"
+                    className="w-full h-full min-h-[320px] object-cover"
+                  />
+                </div>
+                <div className="space-y-4">
+                  <p className="text-gray-700 leading-relaxed">
+                    The foundation of this legacy was laid in 1999 with the vision and compassion of the Late Adv. Shatrughan Chauhan and the Late Mrs. Krishna Chauhan, who believed that education is a fundamental right for every child, regardless of ability. At a time when support for specially abled students was limited, they took the first step toward inclusive education by establishing a school dedicated to specially abled students. That institution continues to stand as a beacon of inclusion and care to this day.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    This legacy was carried forward with remarkable dedication by the Late Dr. Nirmala Chauhan, our Founding Mother, whose passion and commitment became the guiding force behind this enduring mission. She played a pivotal role in nurturing the institution and strengthening the ideals of inclusive education. Her belief in empathy, strength, and equal opportunity transformed countless lives and built a foundation rooted in care and excellence.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Today, Meridian emerges as a new chapter in this continuing legacy—built on the same values and guided by a new vision for the future.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Over the years, this legacy has grown into a source of hope, learning, and empowerment for students and families alike. Each step forward stands as a tribute to the values that shaped its foundation and the enduring spirit of the Founding Mother.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    As Meridian looks to the future, it carries this legacy forward with renewed purpose—creating a world where every child is valued, supported, and given the opportunity to grow, thrive and achieve their goals.
+                  </p>
+                </div>
+              </div>
             </div>
           </motion.div>
         </div>
