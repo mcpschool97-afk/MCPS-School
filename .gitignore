@@ -61,3 +61,4 @@ Thumbs.db
 *.pem
 *.key
 *.crt
+backend/.env
