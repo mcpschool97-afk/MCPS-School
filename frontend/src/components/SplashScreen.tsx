@@ -63,7 +63,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
             Meridian Creative & Progressive School
           </h1>
           <p className="text-blue-700 text-sm md:text-base">
-            Nurturing Minds, Building Futures
+            Innovating Education And Inspiring Lives
           </p>
         </motion.div>
 
