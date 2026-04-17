@@ -54,7 +54,7 @@ export default function Home() {
     {
       icon: <FaBook className="w-8 h-8" />,
       title: 'Quality Education',
-      description: 'CBSE-compliant curriculum with modern teaching methodologies',
+      description: 'CBSE pattern curriculum with modern teaching methodologies',
     },
     {
       icon: <FaTrophy className="w-8 h-8" />,
@@ -164,7 +164,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-xs sm:text-sm lg:text-base font-bold text-white mb-1">Nirmala Chauhan</h3>
+                <h3 className="text-xs sm:text-sm lg:text-base font-bold text-white mb-1">Late Dr. Nirmala Chauhan</h3>
                 <p className="text-[10px] sm:text-[11px] font-semibold text-blue-100 mb-1">Founding Mother</p>
                 <p className="text-[10px] sm:text-[11px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
               </div>
@@ -184,7 +184,7 @@ export default function Home() {
               Welcome to Meridian Creative & Progressive School
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-10 leading-relaxed">
-              Nurturing minds, building futures. CBSE-affiliated school dedicated to academic excellence and holistic development.
+              Innovating Education And Inspiring Lives
             </p>
             <motion.button
               onClick={handleExploreMore}

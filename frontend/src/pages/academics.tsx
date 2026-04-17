@@ -13,10 +13,22 @@ export default function Academics() {
       features: ['Play-based learning', 'Storytelling sessions', 'Creative play', 'Social interaction activities'],
     },
     primary: {
-      name: 'Primary Section (Classes I-VI)',
+      name: 'Primary Section (Classes I-V)',
       description: 'Comprehensive learning with emphasis on conceptual understanding, practical applications, and holistic development.',
       subjects: ['English', 'Hindi', 'Mathematics', 'Science', 'Social Studies', 'Computer Science', 'Physical Education', 'Art', 'Music'],
       features: ['Activity-based learning', 'Project-based assignments', 'Laboratory experiments', 'Regular assessments', 'Interactive teaching'],
+    },
+    upperPrimary: {
+      name: 'Upper Primary (Classes VI-VIII)',
+      description: 'A bridge to advanced learning with integrated science, mathematics, and language studies to build a strong foundation.',
+      subjects: ['English', 'Hindi', 'Mathematics', 'Science', 'Social Studies', 'Computer Science', 'Physical Education', 'Art', 'Music', 'Life Skills'],
+      features: ['Concept-based learning', 'Hands-on experiments', 'Collaborative projects', 'Technology integration', 'Value education'],
+    },
+    secondary: {
+      name: 'Secondary Section (Classes IX-X)',
+      description: 'Focused academic preparation for higher classes through rigorous concepts, exam readiness, and skill development.',
+      subjects: ['English', 'Hindi', 'Mathematics', 'Science', 'Social Studies', 'Computer Science', 'Physical Education', 'Art', 'Music', 'Career Guidance'],
+      features: ['Comprehensive revision', 'Competitive exam orientation', 'Advanced lab work', 'Critical thinking development', 'Mentorship support'],
     },
   };
 
@@ -33,7 +45,7 @@ export default function Academics() {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Academic Programs</h1>
             <p className="text-lg text-blue-100">
-              CBSE-compliant curriculum from Nursery to Class VI with modern teaching methods
+              CBSE pattern curriculum from Nursery to Class X with modern teaching methods
             </p>
           </motion.div>
         </div>

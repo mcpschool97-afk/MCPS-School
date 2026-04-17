@@ -70,7 +70,7 @@ export default function About() {
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Vision</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                To be a leading CBSE-affiliated school recognized for excellence in academics, sports, and character development. We envision a school where innovation meets tradition, and students are empowered to achieve their full potential.
+                To be a leading CBSE pattern school recognized for excellence in academics, sports, and character development. We envision a school where innovation meets tradition, and students are empowered to achieve their full potential.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 We strive to create a global perspective in our students while maintaining strong values and cultural roots.
@@ -126,7 +126,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Journey</h2>
             <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Founded in 2010, Meridian Creative & Progressive School has grown into one of the most respected CBSE-affiliated institutions in the region. Over the years, we have maintained our commitment to academic excellence while embracing modern educational practices.
+                Founded in 2010, Meridian Creative & Progressive School has grown into one of the most respected CBSE pattern institutions in the region. Over the years, we have maintained our commitment to academic excellence while embracing modern educational practices.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Our state-of-the-art facilities, dedicated faculty, and holistic approach to education have helped us produce hundreds of successful alumni who are making their mark in various fields.
