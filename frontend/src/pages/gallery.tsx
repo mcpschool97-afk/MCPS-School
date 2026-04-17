@@ -10,13 +10,14 @@ export default function Gallery() {
   const [events, setEvents] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
 
   // Fetch gallery events from backend
   useEffect(() => {
     const fetchGalleryEvents = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('http://localhost:5000/api/gallery');
+        const response = await axios.get(`${API_URL}/gallery`);
         if (response.data?.success) {
           setEvents(response.data.data || []);
         } else {

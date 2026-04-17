@@ -11,6 +11,7 @@ export default function GalleryDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
 
   // Fetch gallery event details
   useEffect(() => {
@@ -19,7 +20,7 @@ export default function GalleryDetail() {
     const fetchGalleryEvent = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(`http://localhost:5000/api/gallery/${id}`);
+        const response = await axios.get(`${API_URL}/gallery/${id}`);
         if (response.data?.success) {
           setEvent(response.data.data);
         } else {
