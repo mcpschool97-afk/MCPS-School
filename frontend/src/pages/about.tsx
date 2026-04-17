@@ -39,7 +39,8 @@ export default function About() {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
             <p className="text-lg text-blue-100">
-              Learn more about Meridian Creative & Progressive School and our mission
+              Welcome to Meridian Creative and Progressive School (MCPS)—a place where learning meets creativity and excellence.
+
             </p>
           </motion.div>
         </div>
@@ -56,10 +57,18 @@ export default function About() {
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Meridian Creative & Progressive School is dedicated to providing quality education that shapes young minds and prepares them for future success. We believe in fostering an environment where every student can develop intellectually, socially, and emotionally.
+                “Innovating Education and Inspiring Lives” is not just our slogan, but the foundation of everything we do. At MCPS, we are committed to providing quality education under the CBSE curriculum, focusing on the overall development of every child.
+
+We believe education goes beyond textbooks—it shapes character, builds confidence, and nurtures a progressive mindset. Our school provides a safe, inspiring, and student-friendly environment where students are encouraged to think independently, explore their talents, and achieve their full potential.
+
+With a team of dedicated and experienced educators, we ensure personalized attention and guidance for every learner. Our balanced approach integrates academics with co-curricular activities, sports, and value-based education.
+
+From Nursery to Class 10, our programs are thoughtfully designed to develop intellectual growth, creativity, discipline, and leadership qualities.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Our mission is to create responsible citizens who contribute positively to society through academic excellence, moral values, and holistic development.
+                At MCPS, we strive to nurture responsible, confident, and future-ready individuals who will make a positive impact on society.
+
+Meridian Creative and Progressive School — Innovating Education and Inspiring Lives.
               </p>
             </motion.div>
 
@@ -70,10 +79,12 @@ export default function About() {
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Vision</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                To be a leading CBSE pattern school recognized for excellence in academics, sports, and character development. We envision a school where innovation meets tradition, and students are empowered to achieve their full potential.
+                At Meridian Creative and Progressive School (MCPS), our vision is to create a dynamic and inclusive learning environment where every student is empowered to achieve excellence in academics and beyond.
+
+We envision nurturing young minds to become confident, creative, and responsible individuals who are prepared to face the challenges of a rapidly changing world. Through innovation in education and a strong foundation of values, we aim to develop future leaders who think critically, act ethically, and contribute positively to society.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                We strive to create a global perspective in our students while maintaining strong values and cultural roots.
+                Guided by our belief in “Innovating Education and Inspiring Lives,” we strive to transform learning into a meaningful and lifelong journey.
               </p>
             </motion.div>
           </div>
@@ -126,13 +137,18 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Journey</h2>
             <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Founded in 2010, Meridian Creative & Progressive School has grown into one of the most respected CBSE pattern institutions in the region. Over the years, we have maintained our commitment to academic excellence while embracing modern educational practices.
+                The foundation of this legacy was laid in 1999 with the vision and compassion of the Late Adv. Shatrughan Chauhan and the Late Mrs. Krishna Chauhan, who believed that education is a fundamental right for every child, regardless of ability. At a time when support for specially abled students was limited, they took the first step toward inclusive education by establishing a school dedicated to specially abled students. That institution continues to stand as a beacon of inclusion and care to this day.
+
+This legacy was carried forward with remarkable dedication by the Late Dr. Nirmala Chauhan, our Founding Mother, whose passion and commitment became the guiding force behind this enduring mission. She played a pivotal role in nurturing the institution and strengthening the ideals of inclusive education. Her belief in empathy, strength, and equal opportunity transformed countless lives and built a foundation rooted in care and excellence.
+
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our state-of-the-art facilities, dedicated faculty, and holistic approach to education have helped us produce hundreds of successful alumni who are making their mark in various fields.
+                Today, Meridian emerges as a new chapter in this continuing legacy—built on the same values and guided by a new vision for the future.
+
+Over the years, this legacy has grown into a source of hope, learning, and empowerment for students and families alike. Each step forward stands as a tribute to the values that shaped its foundation and the enduring spirit of the Founding Mother.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Today, Meridian Creative & Progressive School stands as a beacon of educational excellence, continuously evolving to meet the needs of 21st-century learners.
+                As Meridian looks to the future, it carries this legacy forward with renewed purpose—creating a world where every child is valued, supported, and given the opportunity to grow, thrive and achieve their goals.
               </p>
             </div>
           </motion.div>
