@@ -149,9 +149,9 @@ export default function Home() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="absolute top-4 left-4 sm:top-6 sm:left-6 lg:top-10 lg:left-8 z-20"
+          className="absolute top-3 left-3 sm:top-5 sm:left-5 lg:top-8 lg:left-8 z-20"
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-2 sm:p-3 w-44 sm:w-44 lg:w-52 max-w-[11rem]">
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-2 sm:p-3 w-32 sm:w-40 lg:w-48 max-w-[10rem] sm:max-w-[11rem]">
             <div className="flex flex-col sm:flex-row items-center gap-2">
               <div className="w-full sm:w-20 flex-shrink-0">
                 <div className="relative overflow-hidden rounded-3xl">
@@ -164,15 +164,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-xs sm:text-sm lg:text-base font-bold text-white mb-1">Late Dr. Nirmala Chauhan</h3>
-                <p className="text-[10px] sm:text-[11px] font-semibold text-blue-100 mb-1">Founding Mother</p>
-                <p className="text-[10px] sm:text-[11px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
+                <h3 className="text-[11px] sm:text-sm lg:text-base font-bold text-white mb-1">Late Dr. Nirmala Chauhan</h3>
+                <p className="text-[9px] sm:text-[10px] font-semibold text-blue-100 mb-1">Founding Mother</p>
+                <p className="text-[8px] sm:text-[10px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
               </div>
             </div>
           </div>
         </motion.div>
 
-        <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+        <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-10 sm:pt-16 lg:pt-20">
           {/* Welcome Text Section - Centered */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
