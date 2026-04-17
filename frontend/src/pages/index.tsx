@@ -151,7 +151,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="absolute top-3 left-3 sm:top-5 sm:left-5 lg:top-8 lg:left-8 z-20"
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 w-40 sm:w-48 lg:w-56 max-w-[13rem] sm:max-w-[14rem]">
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 w-32 sm:w-48 lg:w-56 max-w-[10rem] sm:max-w-[14rem]">
             <div className="flex flex-col items-center gap-3">
               <div className="w-full">
                 <div className="relative overflow-hidden rounded-3xl">
