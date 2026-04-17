@@ -37,9 +37,9 @@ export default function Contact() {
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">Address</h3>
               <p className="text-gray-600 text-sm">
-                123 School Street<br />
-                City, State 123456<br />
-                India
+                Balrampur, Post Patkhauli<br />
+                Azamgarh<br />
+                Near Maa Murati College
               </p>
             </motion.div>
 
@@ -54,9 +54,7 @@ export default function Contact() {
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">Phone</h3>
               <p className="text-gray-600 text-sm">
-                Main: +1 (555) 123-4567<br />
-                Admissions: +1 (555) 123-4568<br />
-                Emergency: +1 (555) 123-4569
+                +91 9076697973
               </p>
             </motion.div>
 
@@ -71,9 +69,7 @@ export default function Contact() {
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">Email</h3>
               <p className="text-gray-600 text-sm">
-                General: info@eliteschool.com<br />
-                Admissions: admission@eliteschool.com<br />
-                Support: support@eliteschool.com
+                mcpschool97@gmail.com
               </p>
             </motion.div>
 
@@ -103,11 +99,19 @@ export default function Contact() {
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
             Find Us On The Map
           </h2>
-          <div className="rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200">
-            <div className="w-full h-full flex items-center justify-center text-gray-500">
-              <p>Map integration would go here</p>
+          <a
+            href="https://maps.app.goo.gl/7B7rE81XKKmyy9jJ7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200 hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
+          >
+            <div className="w-full h-full flex items-center justify-center text-gray-600 hover:text-blue-600 transition-colors text-center p-4">
+              <div>
+                <p className="text-lg font-semibold mb-2">📍 Click to open location on Google Maps</p>
+                <p className="text-sm">Balrampur, Post Patkhauli, Azamgarh, Near Maa Murati College</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </section>
     </div>

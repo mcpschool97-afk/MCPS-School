@@ -204,9 +204,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* Contact Info */}
             <div>
               <h3 className="text-lg font-bold mb-4 text-blue-400">Contact Us</h3>
-              <p className="text-gray-400 text-sm mb-2">📍 123 School Street, City, State 123456</p>
-              <p className="text-gray-400 text-sm mb-2">📞 +1 (555) 123-4567</p>
-              <p className="text-gray-400 text-sm">✉️ info@eliteschool.com</p>
+              <p className="text-gray-400 text-sm mb-2">📍 Balrampur, Post Patkhauli, Azamgarh, Near Maa Murati College</p>
+              <p className="text-gray-400 text-sm mb-2">📞 +91 9076697973</p>
+              <p className="text-gray-400 text-sm">✉️ mcpschool97@gmail.com</p>
             </div>
           </div>
 
