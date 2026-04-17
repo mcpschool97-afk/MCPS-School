@@ -117,7 +117,7 @@ router.delete('/:id/images/:imageId', auth, async (req, res) => {
       await cloudinary.uploader.destroy(image.publicId, { resource_type: 'image' });
     }
 
-    image.remove();
+    event.images.pull(req.params.imageId);
     await event.save();
 
     res.status(200).json({ success: true, message: 'Image deleted successfully', data: event });
@@ -139,7 +139,7 @@ router.delete('/:id', auth, async (req, res) => {
       await cloudinary.uploader.destroy(publicId, { resource_type: 'image' });
     }
 
-    await event.remove();
+    await Gallery.findByIdAndDelete(req.params.id);
 
     res.status(200).json({ success: true, message: 'Gallery event deleted successfully' });
   } catch (error) {

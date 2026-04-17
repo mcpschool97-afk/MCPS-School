@@ -1,5 +1,6 @@
 const express = require('express');
 const Event = require('../models/Event');
+const auth = require('../middleware/auth');
 const router = express.Router();
 
 // Get all events
@@ -172,8 +173,8 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// Delete event
-router.delete('/:id', async (req, res) => {
+// Delete event (admin only)
+router.delete('/:id', auth, async (req, res) => {
   try {
     const event = await Event.findByIdAndDelete(req.params.id);
 
