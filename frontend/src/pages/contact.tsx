@@ -99,19 +99,28 @@ export default function Contact() {
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
             Find Us On The Map
           </h2>
-          <a
-            href="https://maps.app.goo.gl/7B7rE81XKKmyy9jJ7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200 hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
-          >
-            <div className="w-full h-full flex items-center justify-center text-gray-600 hover:text-blue-600 transition-colors text-center p-4">
-              <div>
-                <p className="text-lg font-semibold mb-2">📍 Click to open location on Google Maps</p>
-                <p className="text-sm">Balrampur, Post Patkhauli, Azamgarh, Near Maa Murati College</p>
-              </div>
-            </div>
-          </a>
+          <div className="rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.8274649999996!2d83.18738!3d26.05469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39954d8c8c8c8c8d%3A0x1234567890abcdef!2sBalrampur%2C%20Patkhauli%2C%20Azamgarh%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1650000000000"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <div className="mt-6 text-center">
+            <a
+              href="https://maps.app.goo.gl/7B7rE81XKKmyy9jJ7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            >
+              View Full Size Map
+            </a>
+          </div>
         </div>
       </section>
     </div>
