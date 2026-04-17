@@ -151,9 +151,9 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="absolute top-3 left-3 sm:top-5 sm:left-5 lg:top-8 lg:left-8 z-20"
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-2 sm:p-3 w-32 sm:w-40 lg:w-48 max-w-[10rem] sm:max-w-[11rem]">
-            <div className="flex flex-col sm:flex-row items-center gap-2">
-              <div className="w-full sm:w-20 flex-shrink-0">
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 w-40 sm:w-48 lg:w-56 max-w-[13rem] sm:max-w-[14rem]">
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-full">
                 <div className="relative overflow-hidden rounded-3xl">
                   <img
                     src="/memorial/foundingmother.png"
@@ -163,10 +163,10 @@ export default function Home() {
                   <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
                 </div>
               </div>
-              <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-[11px] sm:text-sm lg:text-base font-bold text-white mb-1">Late Dr. Nirmala Chauhan</h3>
-                <p className="text-[9px] sm:text-[10px] font-semibold text-blue-100 mb-1">Founding Mother</p>
-                <p className="text-[8px] sm:text-[10px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
+              <div className="text-center">
+                <h3 className="text-sm lg:text-base font-bold text-white mb-1">Late Dr. Nirmala Chauhan</h3>
+                <p className="text-[10px] sm:text-[11px] font-semibold text-blue-100 mb-1">Founding Mother</p>
+                <p className="text-[9px] sm:text-[10px] text-blue-100 italic leading-tight">A beacon of inspiration and dedication to education</p>
               </div>
             </div>
           </div>
