@@ -267,11 +267,11 @@ export default function Home() {
                 >
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transform rotate-6 blur-lg opacity-30"></div>
-                    <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl w-80 h-96">
+                    <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl w-80 h-80">
                       <img
                         src={leader.photo}
                         alt={leader.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover object-top"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                     </div>
