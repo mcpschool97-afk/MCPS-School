@@ -4,7 +4,7 @@ import { FaClipboardList, FaFileAlt, FaCheckCircle, FaCalendarAlt } from 'react-
 import AdmissionFormModal from '../components/AdmissionFormModal';
 
 export default function Admissions() {
-  const [selectedClass, setSelectedClass] = useState<'primary' | 'upperPrimary'>('primary');
+  const [selectedClass, setSelectedClass] = useState<'primary' | 'upperPrimary' | 'secondary'>('primary');
   const [isFormModalOpen, setIsFormModalOpen] = useState(false);
 
   const admissionInfo = {
@@ -21,6 +21,13 @@ export default function Admissions() {
       capacity: '42 students per class',
       testPattern: 'Entrance test in English, Mathematics & Science',
       documents: ['Birth Certificate', 'Transfer Certificate', 'Last Mark Sheet', 'Health Certificate', 'Character Certificate'],
+    },
+    secondary: {
+      classRange: 'Classes VII - IX',
+      ageRange: '12 - 15 years',
+      capacity: '45 students per class',
+      testPattern: 'Comprehensive entrance test covering all subjects',
+      documents: ['Birth Certificate', 'Transfer Certificate', 'Last Mark Sheet', 'Health Certificate', 'Character Certificate', 'Migration Certificate'],
     },
   };
 
@@ -45,7 +52,7 @@ export default function Admissions() {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Admissions</h1>
             <p className="text-lg text-blue-100">
-              Join our community - Classes I to VI
+              Join our community - Classes I to IX
             </p>
           </motion.div>
         </div>
@@ -59,7 +66,7 @@ export default function Admissions() {
             {Object.entries(admissionInfo).map(([key, value]) => (
               <button
                 key={key}
-                onClick={() => setSelectedClass(key as 'primary' | 'upperPrimary')}
+                onClick={() => setSelectedClass(key as 'primary' | 'upperPrimary' | 'secondary')}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all ${
                   selectedClass === key
                     ? 'bg-blue-600 text-white shadow-lg'

@@ -32,6 +32,9 @@ export default function AdmissionFormModal({ isOpen, onClose }: AdmissionFormMod
     'Class 4',
     'Class 5',
     'Class 6',
+    'Class 7',
+    'Class 8',
+    'Class 9',
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
