@@ -101,7 +101,7 @@ export default function Contact() {
           </h2>
           <div className="rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.8274649999996!2d83.18738!3d26.05469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39954d8c8c8c8c8d%3A0x1234567890abcdef!2sBalrampur%2C%20Patkhauli%2C%20Azamgarh%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1650000000000"
+              src="https://maps.google.com/maps?q=Balrampur%20Post%20Patkhauli%20Azamgarh%20Uttar%20Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -113,7 +113,7 @@ export default function Contact() {
           </div>
           <div className="mt-6 text-center">
             <a
-              href="https://maps.app.goo.gl/7B7rE81XKKmyy9jJ7"
+              href="https://www.google.com/maps/search/?api=1&query=Balrampur+Post+Patkhauli+Azamgarh+Uttar+Pradesh"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
