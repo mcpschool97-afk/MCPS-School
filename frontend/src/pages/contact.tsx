@@ -101,7 +101,7 @@ export default function Contact() {
           </h2>
           <div className="rounded-lg overflow-hidden shadow-lg h-96 bg-gray-200">
             <iframe
-              src="https://maps.google.com/maps?q=Balrampur%20Post%20Patkhauli%20Azamgarh%20Uttar%20Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Bhartiya+Chauhan+Samiti+(Institute+of+Special+Education)+Pahadpur+Balrampur+Azamgarh+Uttar+Pradesh+276125&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -113,7 +113,7 @@ export default function Contact() {
           </div>
           <div className="mt-6 text-center">
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Balrampur+Post+Patkhauli+Azamgarh+Uttar+Pradesh"
+              href="https://www.google.com/maps/place/Bhartiya+Chauhan+Samiti+(Institute+of+Special+Education),+Pahadpur,+Balrampur,+Azamgarh,+Uttar+Pradesh+276125/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
