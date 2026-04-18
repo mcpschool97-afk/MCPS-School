@@ -186,7 +186,7 @@ export default function Home() {
                   <img
                     src="/founders.jpg"
                     alt="Founders"
-                    className="w-full aspect-[4/5] object-contain"
+                    className="w-full aspect-[5/4] object-contain"
                   />
                   <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
                 </div>
