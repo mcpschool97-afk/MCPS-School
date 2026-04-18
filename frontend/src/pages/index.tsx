@@ -172,6 +172,34 @@ export default function Home() {
           </div>
         </motion.div>
 
+        {/* Founders - Top Right */}
+        <motion.div
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="absolute top-3 right-3 sm:top-5 sm:right-5 lg:top-8 lg:right-8 z-20"
+        >
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white/20 p-3 w-32 sm:w-48 lg:w-56 max-w-[10rem] sm:max-w-[14rem]">
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-full">
+                <div className="relative overflow-hidden rounded-3xl">
+                  <img
+                    src="/founders.jpg"
+                    alt="Founders"
+                    className="w-full aspect-[4/5] object-cover"
+                  />
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/40 to-transparent"></div>
+                </div>
+              </div>
+              <div className="text-center">
+                <h3 className="text-sm lg:text-base font-bold text-white mb-1">Late Adv. Shatrughan Chauhan & Late Mrs. Krishna Chauhan</h3>
+                <p className="text-[10px] sm:text-[11px] font-semibold text-blue-100 mb-1">Founders</p>
+                <p className="text-[9px] sm:text-[10px] text-blue-100 italic leading-tight">Visionaries who laid the foundation for inclusive education</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
         <div className="relative z-10 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-10 sm:pt-16 lg:pt-20">
           {/* Welcome Text Section - Centered */}
           <motion.div
