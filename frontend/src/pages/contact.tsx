@@ -113,7 +113,7 @@ export default function Contact() {
           </div>
           <div className="mt-6 text-center">
             <a
-              href="https://www.google.com/maps/place/Bhartiya+Chauhan+Samiti+(Institute+of+Special+Education),+Pahadpur,+Balrampur,+Azamgarh,+Uttar+Pradesh+276125/"
+              href="https://maps.app.goo.gl/7B7rE81XKKmyy9jJ7"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
