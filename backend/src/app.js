@@ -101,6 +101,11 @@ app.use('/api/admissions', require('./routes/admissions'));
 app.use('/api/attendance', require('./routes/attendance'));
 // app.use('/api/staff', require('./routes/staff'));
 
+// Health check for keep-alive
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ status: 'OK' });
+});
+
 // Database health check
 app.get('/api/health/db', async (req, res) => {
   try {
